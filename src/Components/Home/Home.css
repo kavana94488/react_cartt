@@ -1,0 +1,21 @@
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap:30px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.homeTitle{
+    width: 1024px;
+    font-size: 20px;
+    margin-top:30px;
+}
+.home{
+    align-items: center;
+}
+.other{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+}

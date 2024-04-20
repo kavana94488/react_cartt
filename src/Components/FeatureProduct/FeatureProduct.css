@@ -1,0 +1,44 @@
+.fp{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    flex-direction: row;
+    width: 100%;
+  max-width: 1024px;
+}
+
+.fpItem{
+flex:1;
+display: flex;
+flex-direction: column;
+
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.rating >button{
+    border:none;
+    background-color: #003580;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+.rating > span{
+    font-weight: 100;
+}
+.fpImg{
+   width: 100%; 
+}
+.hotelName{
+    font-weight: bold;
+}
+.city{
+    font-weight: 100;
+}
+.price{
+    font-weight: bold;
+    font-size: 10px;
+}
